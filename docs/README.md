@@ -8,7 +8,7 @@ Programa para a Matéria de Desenvolvimento Web
 - Utilização de IDE: Configuração e uso do Visual Studio Code para editar e gerenciar projetos HTML.
 - Criação do design através da plataforma Figma: Utilização do Figma para criar e prototipar o design das páginas web, facilitando a visualização e o planejamento do layout.
 
-- Acesso em: https://jacksonn455.github.io/desenvolvimento-web-aula-html/
+- Acesso em: https://jacksonn455.github.io/desenvolvimento-web-aula-javascript/
 - Figma em: https://www.figma.com/design/2g4bAm7EnKUsyaS7KBmwBD/Portifolio---Desenvolvimento-Web?node-id=0-1&t=4oFjtVjIi5cUBlvA-0
 
 ## Autor
