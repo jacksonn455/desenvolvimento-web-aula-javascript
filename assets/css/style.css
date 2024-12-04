@@ -64,21 +64,21 @@ strong {
 }
 
 #animacao {
-  color: white;
+  color: white; /* Define a cor do texto dentro do elemento com o id "animacao" como branco */
 }
 
 #animacao::after {
-  content: "|";
-  opacity: 1;
-  animation: blink 0.7s infinite;
+  content: "|"; /* Adiciona um cursor (barra vertical) após o conteúdo do elemento "animacao" */
+  opacity: 1; /* Define a opacidade inicial do cursor como totalmente visível */
+  animation: blink 0.7s infinite; /* Aplica uma animação de piscar ao cursor, com duração de 0.7 segundos e repetição infinita */
 }
 
 .apresentacao img {
-  margin-left: 20px;
+  margin-left: 20px; /* Adiciona uma margem à esquerda de 20px para as imagens dentro da classe "apresentacao" */
 }
 
 @keyframes blink {
   50% {
-    opacity: 0;
+    opacity: 0; /* Durante 50% da animação, torna o cursor invisível */
   }
 }

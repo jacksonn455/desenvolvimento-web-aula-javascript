@@ -1,3 +1,4 @@
+//A parte que configura a animação de digitação dentro do DOMContentLoaded
 document.addEventListener('DOMContentLoaded', function() { // 1. Aguarda o carregamento do DOM antes de executar o código
     // Função para criar o efeito de digitação
     function typeWrite(elemento) { // 2. Define a função que cria o efeito de digitação
@@ -12,6 +13,7 @@ document.addEventListener('DOMContentLoaded', function() { // 1. Aguarda o carre
         });
     }
 
+    // Configuração da animação de digitação (Lembrar de adicionar no html id="animacao")
     const titulo = document.querySelector('#animacao'); // 9. Seleciona o elemento com o texto a ser digitado
     typeWrite(titulo); // 10. Chama a função para iniciar a animação de digitação
 });
@@ -33,7 +35,7 @@ links.forEach(link => { // 12. Adiciona eventos a cada link selecionado
 });
 
 
-
+// Animação de opacidade após o carregamento completo
 window.addEventListener('load', () => { // 19. Aguarda o carregamento completo da página
     const conteudo = document.querySelector('.apresentacao__conteudo'); // 20. Seleciona o elemento que contém o conteúdo
     conteudo.style.opacity = 0; // 21. Define a opacidade inicial como 0 (invisível)
@@ -44,7 +46,7 @@ window.addEventListener('load', () => { // 19. Aguarda o carregamento completo d
 });
 
 
-
+// Configuração de clique na imagem
 const imagem = document.querySelector('img'); // 26. Seleciona a imagem que será clicada
 imagem.addEventListener('click', () => { // 27. Adiciona um evento de clique na imagem
     imagem.src = imagem.src.includes('Imagem.png') ? './assets/images/Imagem2.png' : './assets/images/Imagem.png'; // 28. Alterna a imagem exibida com base na condição
